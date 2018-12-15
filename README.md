@@ -34,18 +34,24 @@
 
 
 ```javascript
-var E = window.ushareEditor
-var editor = new E('#div')
+<link rel='stylesheet' href='usharerEditor.css'>
+<script src='ushareEditor.js'></script>
+
+
+const E = window.ushareEditor
+const editor = new E('#div')
 editor.create()
 ```
 
+
+webpack
+
 ```javascript
-var editor = require('ushare-editor');
+const ushareEditor = require('ushare-editor');
 require('ushare-editor/ushareEditor.css');
 
-var E = editor.ushareEditor;
-var editor = new E('#div')
-editor.create()
+const editor = new ushareEditor('#div');
+editor.create();
 ```
 
 
