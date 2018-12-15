@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>UshareEditor，富文本编辑器</title>
+    <link rel="stylesheet" href="../ushareEditor.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="icon" href="ushare_favicon.ico">
+</head>
+<body>
+    <a href="https://ushare.org" alt="优享" title="优享" class="logo" target="_blank"><img src="logo.png" alt="Ushare" title="Ushare"></a>
+    <div class="body">
+        <div class="top">
+            <h1>UshareEditor</h1>
+            <h2>基于<a href="http://www.wangeditor.com/" target="_blank">wangEditor@3.1.1</a>开发的富文本编辑器,轻量级，配置方便，使用简单。支持 IE10+ 浏览器</h2>
+        </div>
+
+        <div class="link">
+            <a href="javascript:" class="link-item active">demo</a>
+            <a href="" class="link-item">文档</a>
+            <a href="" class="link-item">
+                <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+                github
+            </a>
+        </div>
+
+        <div id="editor">
+            <p>欢迎使用 <b>ushareEditor</b> 富文本编辑器</p>
+        </div>
+        <div class="container">
+            <div class="about">
+                <h3>关于</h3>
+                <div class="title">
+                    <p>ushareEditor主要对<a href="http://www.wangeditor.com/" target="_blank">wangEditor</a>进行优化和二次开发</p>
+                    <p class="point">优化点</p>
+                    <ul>
+                        <li>1.部分UI重新设计；</li>
+                        <li>2.增加分割线功能；</li>
+                        <li>3.支持生成图片介绍文字功能，开启该功能时图片将居中显示；</li>
+                        <li>4.支持第三方平台拷贝文字时去除字体、去除字体大小等过滤；</li>
+                        <li>5.增加代码链接判空校验、链接自动插入http协议头；</li>
+                        <li>6.支持qq、微信等截图然后直接拷贝图片功能（该功能需后台支持图片上传功能或者配置七牛等第三方存储）；</li>
+                        <li>7.抽离css样式，用户可自行替换样式；</li>
+                        <li>8.修复了部分bug</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>©2018 <a href="https://ushare.org" target="_blank">https://ushare.org</a></p>
+    </footer>
+
+    <!-- 引用js -->
+    <script type="text/javascript" src="../ushareEditor.js"></script>
+    <script type="text/javascript">
+        var E = window.ushareEditor;
+        var editor = new E('#editor');
+        editor.create();
+    </script>
+</body>
+</html>

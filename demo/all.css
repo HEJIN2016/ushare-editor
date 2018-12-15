@@ -1,0 +1,103 @@
+.body {
+    width: 1200px;
+    margin: 0 auto;
+}
+html, body {
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+    font: 15px PingFangSC-Regular, PingFang SC, Hiragino Sans GB, Microsoft YaHei, "Open Sans", Helvetica Neue, Arial, sans-serif;
+    background: #fff;
+    width: 100%;
+    position: relative;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    position: absolute;
+    left: 54px;
+    top: 24px;
+}
+.logo img {
+    height: 56px;
+}
+.top {
+    padding: 60px 0;
+}
+.top a {
+    color: #00b38a;
+    text-decoration: none;
+}
+.top h1 {
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    color: #333;
+    text-rendering: optimizelegibility;
+    margin-bottom: 0;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+.top h2 {
+    line-height: 1;
+    color: #999999;
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+.about {
+    margin: 40px 0;
+}
+.about h3 {
+    font-size: 24px;
+}
+.about .title p {
+    font-size: 16px;
+}
+p.point {
+    font-size: 20px;
+    color: #000;
+    margin: 20px 0;
+}
+.about .title ul {
+    padding-left: 20px;
+}
+.link {
+    text-align: left;
+    padding: 20px 0;
+}
+.link .link-item {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 0 18px;
+    text-align: center;
+    border: 1px solid #00b38a;
+    border-radius: 100px;
+    height: 30px;
+    line-height: 26px;
+    color: #00b38a;
+    letter-spacing: .12px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin-bottom: 20px;
+}
+
+.link .link-item.active {
+    background: #00b38a;
+    color: #fff;
+    border-color: #00b38a;
+}
+.link-item svg {
+    vertical-align: middle;
+}
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+}

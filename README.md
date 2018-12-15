@@ -43,4 +43,3 @@ editor.create()
 - 可查看wangeditor相关demo，使用方式基本一致
 - 用于 React、vue 或者 angular 可查阅[文档](http://www.kancloud.cn/wangfupeng/wangeditor3/332599)中[其他](https://www.kancloud.cn/wangfupeng/wangeditor3/335783)章节中的相关介绍
 
-

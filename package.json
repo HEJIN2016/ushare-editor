@@ -1,0 +1,25 @@
+{
+  "name": "ushare-editor",
+  "version": "0.0.1",
+  "description": "ushare富文本编辑器，基于wangEditor@3.1.1开发的富文本编辑器",
+  "main": "ushareEditor.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HEJIN2016/ushare-editor.git"
+  },
+  "keywords": [
+    "ushareEditor",
+    "wangeditor\u001b[D\u001b[D\u001b[D\u001b[D\u001b[e\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "rich-text-editor",
+    "editor"
+  ],
+  "author": "HEJIN2016",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HEJIN2016/ushare-editor/issues"
+  },
+  "homepage": "https://github.com/HEJIN2016/ushare-editor#readme"
+}
