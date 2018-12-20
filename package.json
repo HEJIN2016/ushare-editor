@@ -1,6 +1,6 @@
 {
   "name": "ushare-editor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ushare富文本编辑器，基于wangEditor@3.1.1开发的富文本编辑器",
   "main": "ushareEditor.js",
   "scripts": {
