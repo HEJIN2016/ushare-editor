@@ -9,13 +9,12 @@ dist
 # build
 build
 
-#vscode config
-.vscode
 node_modules
 .git
-.server
-.nuxt
-.idea
-.zip
+
 package-lock.json
 yarn.lock
+
+# webstorm
+debugger.xml
+_windows
