@@ -6,6 +6,7 @@
 **ushareEditor** —— 基于wangEditor@3.1.1开发的富文本编辑器,轻量级，配置方便，使用简单。支持 IE10+ 浏览器。
 
 - 源码：[https://github.com/HEJIN2016/ushare-editor](https://github.com/HEJIN2016/ushare-editor) （欢迎 star）
+- 文档：[https://www.kancloud.cn/hejin/ushare-editor/883176](https://www.kancloud.cn/hejin/ushare-editor/883176)
 
 ![image.png](https://xuanwuyun.com/FlLolaDWYAm4x577-uVx0hZhESjc?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
